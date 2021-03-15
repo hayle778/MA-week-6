@@ -2,7 +2,7 @@ import acm.program.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class NameSurfer extends Program implements NameSurferConstants {
+public class NameSurfer extends ConsoleProgram {
 
 	 private static final double BOX_WIDTH = 120;
 	 private static final double BOX_HEIGHT = 50;
@@ -32,6 +32,7 @@ public class NameSurfer extends Program implements NameSurferConstants {
 		addActionListeners();
 }
 
+	
 	public void actionPerformed(ActionEvent e) {
 
 		if (e.getSource() == addButton) {
